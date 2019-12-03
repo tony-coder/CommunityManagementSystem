@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource
+            auth="Container"
+            description="DB Connection"
+            name="jdbc/javawebdb"
+            type="javax.sql.DataSource"
+            maxTotal="10"
+            maxIdle="5"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/javawebdb?serverTimezone=GMT"
+            username="root"
+            password="Bfx1997@_"
+            maxWaitMillis="5000"/>
+</Context>
